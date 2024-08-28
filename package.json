@@ -2,11 +2,10 @@
   "name": "fivem-pkg",
   "version": "1.0.0",
   "description": "Install FiveM Artifacts Quickly",
-  "main": "bin/fivem-pkg.js",
   "author": "oxince",
   "license": "MIT",
   "bin": {
-    "fivem-pkg": "bin/fivem-pkg.js"
+    "fivem-pkg": "./bin/fivem-pkg.js"
   },
   "repository": {
     "type": "git",
