@@ -102,6 +102,8 @@ const mkdirFilePath = (path) => {
 };
 
 const start = async () => {
+  const started = Date.now();
+
   mkdirFilePath(config.outDir);
   log(`Fetching FiveM Artifact branch ${config.branch}`);
 
@@ -127,6 +129,8 @@ const start = async () => {
   await unzipFile(fileName);
 
   fs.unlinkSync(path.join(config.outDir, fileName));
+
+  log(`Artifact downloaded & extracted in ${Date.now() - started}ms`);
 };
 
 start();
