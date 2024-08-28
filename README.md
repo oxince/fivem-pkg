@@ -1,5 +1,8 @@
 # fivem-pkg
 
+![npm](https://img.shields.io/npm/v/fivem-pkg?style=flat-square)
+![npm](https://img.shields.io/npm/dt/fivem-pkg?style=flat-square)
+
 ![](https://i.imgur.com/q3luGHk.png)
 
 Download server artifacts quickly and easily for [FiveM Servers](https://fivem.net). This Project is inspired by [altmp/altv-pkg](https://github.com/altmp/altv-pkg).
