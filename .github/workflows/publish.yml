@@ -1,7 +1,10 @@
 name: Publish Package
 on:
   release:
-    types: [published]
+    types: [created]
+  push:
+    branches:
+      - main
 jobs:
   publish:
     runs-on: ubuntu-latest
