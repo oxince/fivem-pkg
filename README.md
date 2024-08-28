@@ -6,7 +6,7 @@ Download server artifacts quickly and easily for [FiveM Servers](https://fivem.n
 
 | Usage                        | Description                                                 |
 | ---------------------------- | ----------------------------------------------------------- |
-| `fivem-pkg -o <destination>` | Output directory (default: fivem)                           |
+| `fivem-pkg -o <destination>` | Output directory (default: artifacts)                       |
 | `fivem-pkg -v <version>`     | Branch to download (options: recommended, optional, latest) |
 
 ## How to install?

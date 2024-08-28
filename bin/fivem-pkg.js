@@ -29,7 +29,7 @@ const fileName = config.os === 'win32' ? 'server.7z' : 'fx.tar.xz';
 if (options.help) {
   console.log(`Usage: ${chalk.yellow('fivem-pkg')} [options]`);
   console.log('Options:');
-  console.log('  -o, --output <dir>   Output directory (default: fivem)');
+  console.log('  -o, --output <dir>   Output directory (default: artifacts)');
   console.log('  -b, --branch <ver>  Branch to download (options: recommended, optional, latest)');
   process.exit(0);
 }
